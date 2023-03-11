@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.All-cards{
+    background-color: #161D27;
+    margin-top: -10px;
+}
+.All-six{
+    margin: 10px 0px 0px 20px;
+    padding: 40px;
+height: 429px;
+width: 430px;
+
+background-color: #1F2732;
+border-radius: 0px;
+}
+
+.dav{
+padding-bottom: 30px;
+}
+
+.bottom-card{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+   
+}
+.bottom-cards{
+    margin: 10px;
+}
+
+
+.bottom-card img{
+
+    padding-top: 30px;
+}
+/* top-cards  */
+.top-card-first{
+    padding: 40px;
+    border-bottom: 2px solid #4E555F;
+}
+
+.top-card-second{
+    padding: 39px;
+    border-bottom: 2px solid #4E555F;
+}
+.top-card-third{
+    padding: 40px;
+    border-bottom: 2px solid #4E555F;
+}
+.top-card-forth{
+    padding: 40px;
+    border-bottom: 2px solid #4E555F;
+}
+.top-card-fifth{
+    padding: 38.8px;
+    border-bottom: 2px solid #4E555F;
+}
+.top-card-sixth{
+    padding: 40px;
+    border-bottom: 2px solid #4E555F;
+}
+
+/* cards finish */
+
+.letter{
+    padding-top: 50px;
+    
+}
+.letter button{
+    width: 140px;
+    padding: 15px;
+    background-color: #161D27;
+    color: #fff;
+border-radius: 0px;
+    
+}
+
+
+h1{
+    color:#fff;
+}
+
+
+.All-six small{
+    color: #D7D7D7;
+}
+
+/* logo sizing */
+
+.Case-logo.letter{
+    padding-top: 92px;
+}
+.Case-logo{
+    padding-top: 20px;
+}
+.Building-logo{
+    padding-top: 25px;
+}
+
+.Car-logo{
+    padding-top: 32px;
+}
+
+.Rip-logo{
+    padding-top: 16px;
+}
+
+.Chain-logo{
+    padding-top:21px ;
+}
+
+.people-logo{
+    padding-top: 28px;
+}
+/* finish sizing logo */
+
+@media (max-width: 1208px) and (min-width:300px) {
+
+    .swiper-backface-hidden .swiper-slide{
+        margin-right: 50px;
+    }
+
+    .top-card-first{
+        padding: 40px;
+      
+    }
+    .top-card-second{
+        padding: 40px;
+        
+    }
+    .top-card-forth{
+        padding: 40px;
+       
+    }
+    .Results-container .side-by-side {
+        padding: 0px !important;
+    }
+}
+
+
+@media (max-width: 1208px) and (min-width:300px) {
+    .Results-container .side-by-side {
+        padding: 80px 0px 80px 0px !important;
+    }
+
+}

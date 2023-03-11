@@ -1,0 +1,101 @@
+.Recents-blog{
+    background-color: #161D27;
+}
+
+.recent-bottom{
+    display: flex;
+    padding: 50px;
+}
+
+.recent-top{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.recent-right{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 0px 70px;
+}
+
+.recent-center h1{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 58px;
+/* or 130% */
+
+letter-spacing: 0.4px;
+
+color: #FFFFFF;
+
+}
+
+.recent-center small{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+
+letter-spacing: 0.4px;
+
+color: #D7D7D7;
+
+
+letter-spacing: 0.4px;
+
+color: #FFFFFF;
+
+}
+
+.recent-down a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 35px;
+/* identical to box height, or 160% */
+
+letter-spacing: 0.4px;
+text-transform: capitalize;
+
+color: #D1B06B;
+}
+@media (max-width: 1145px) and (min-width:350px) {
+    .recent-bottom{
+       flex-direction: column;
+    }
+
+    .recent-left img{
+        width: 420px;
+    }
+
+    .recent-right{
+        padding: 50px 0px 0px 0px;
+    }
+
+    .recent-top img{
+        padding: 20px 00px 0px 20px;
+
+    }
+}
+@media (max-width: 1455px) and (min-width:1150px) {
+    .recent-top img{
+        padding: 20px 00px 0px 40px;
+
+    }
+
+}
+
+@media (max-width: 1700px) and (min-width:1445px) {
+    .recent-top img{
+        padding: 20px 00px 0px 50px;
+
+    }
+
+}

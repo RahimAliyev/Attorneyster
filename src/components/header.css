@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+   
+}
+.BAC{
+  padding: 12px;
+}
+.right-side button{
+  background-color: rgba(62, 62, 62, 0.9);
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 8px;
+}
+
+.left-side img{
+  padding-left: 20px;
+}
+
+.mail {
+  padding-top: 12px;
+  padding-right: 12px;
+}
+
+.right-side{
+  padding-left: 25px;
+}
+
+.call{
+  padding-top: 12px;
+  padding-right: 12px;
+}
+
+.contains{
+  background-image: url(../assets/diplom)  ;
+  background-size:     cover;                      
+    background-repeat:   no-repeat;
+   
+
+}

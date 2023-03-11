@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
+a:hover{
+    color: #fff;
+    
+    transform: scale(1.15, 1.15);
+ transition: 230ms;
+ 
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.center-footer a{
+    font-family: 'Roboto', sans-serif;
+}
+
+.center-footer article{
+    font-family: 'Roboto', sans-serif;
+}
+.footer-container{
+  
+    background-color: #161D27;
+    
+}
+
+.footer-container-image img{
+    width: 100%;
+}
+
+.footer-container article{
+    color: #fff;
+}
+.footer-container a{
+    text-decoration: none;
+   color: #fff;
+   padding-top: 30px;
+}
+
+.footer-container article{
+    width: 300px;
+    font-family: 'Roboto', sans-serif;
+font-size: 30px;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0.4000000059604645px;
+text-align: left;
+
+}
+.top-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 20px 70px 20px;
+}
+
+.flex-links , .center-footer{
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+.center-middle{
+    display: flex;
+   
+}
+
+.left-center >.top-down-right{
+   padding-left: 110px;
+}
+
+
+.top-down-left{
+    padding-left: 30px;
+}
+
+.top-down-right{
+    padding-left: 30px;
+}
+
+.top-down-left a{
+    display: block;
+    width: 100px;
+    
+}
+
+.top-down-right a{
+    display: block;
+   width: 134px;
+}
+
+.top-side-left a{
+    width: 135px;
+}
+.top-side-left a{
+    width: 135px;
+}
+
+
+.top-side-right > .top-side-right a {
+    display: block;
+}
+
+/* links styling */
+/* .center-left .top-side{
+    width: 300px;
+} */
+.left-center{
+    display: flex;
+}
+
+
+.center-right h1{
+    font-size: 20px;
+}
+
+.center-left .top-side{
+    padding-right: 150px;
+}
+
+.center-middle .top-side-left{
+    padding-right: 50px;
+}
+
+.top-links{
+    border-top: 1px solid #3B434E;
+    border-bottom: 1px solid #3B434E;
+    padding: 15px;
+}
+
+
+.center-contact{
+   position: relative;
+   top: 20%;
+}
+.center-locations{
+    padding-top: 77px;
+}
+
+.mail{
+    padding-top: 30px;
+}
+
+.LasVegas{
+    padding-top: 30px;
+}
+
+ .top-down-left , .top-down-right{
+    padding-top: 50px;
+}
+
+/* links finish */
+
+
+/* bottom */
+.left-footer{
+     display: flex;
+    
+}
+
+.left-footer small{
+    color: #fff;
+   
+}
+
+.all-sides{
+    display: flex;
+     padding: 20px;
+      border-top: 1px solid #3B434E;
+    border-bottom: 1px solid #3B434E;
+    justify-content: space-between;
+}
+
+.bottom-footer{
+  
+   
+    padding: 100px 15px 0px 15px;
+}
+.copy{
+    padding: 2px 5px 0px 12px;
+}
+.powered{
+    padding: 2px 5px 0px 2px;
+}
+
+.designed{
+    pad: 0px 5px 0px 12px;
+}
+
+.right-footer{
+    display: flex;
+}
+
+.right-footer p{
+    padding: 10px 20px 0px 0px;
+
+}
+
+/* .contact-width {
+    padding: 10px;
+} */
+
+.right-footer img{
+    padding: 10px;
+
+}
+
+
+/* bottom finish */
+
+
+/* media */
+
+@media (max-width: 850px) and (min-width:300px) {
+    .flex-links, .center-footer{
+        flex-direction: column;
+            justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-container article{
+        width: 100px;
+    }
+    .all-sides{
+        flex-direction: column;
+
+    }
+    .left-footer{
+        flex-direction: column;
+        width: 100%;
+    }
+    .right-footer{
+        width: 100%;
+    }
+    .copy{
+        display: contents;
+    }
+
+    .designed{
+        display: contents;
+    }
+    .powered{
+        display: contents;
+    }
+
+    .contact-width{
+        width: 300px;
+    }
+
+    .top-side-left{
+        padding-top: 30px;
+    }
+   .top-side-right{
+    padding-top: 30px;
+   }
+   .center-right{
+    padding-top: 30px;
+   }
+    
+}
+
+@media (max-width: 1450px) and (min-width:300px) {
+    .footer-container article{
+        width: 100px;
+    }
+    .top-link-width{
+                width: 270px;
+    }
+    .center-contact{
+        top: 2%;
+    }
+   
+
+}
+
+@media (max-width: 950px) and (min-width:770px) {
+    .top-link-width{
+        width: 200px;
+}
+
+.left-side-logo img{
+    width: 200px;
+}
+.right-side-logo img{
+    width: 200px;
+}
+.left-center >.top-down-right {
+    padding-left: 70px;
+}
+.left-footer{
+    width: 100%;
+}
+
+
+}
+@media(max-width:1480px)  and (min-width:1470px){
+
+
+    .left-center >.top-down-right{
+            padding-left: 90px;
+          }
+          }
+
+/* attorney logo svg width media */
+@media (max-width: 850px) and (min-width:200px) {
+    .left-side-logo img{
+        display: none;
+    }
+    .right-side-logo img{
+        display: none;
+    }
+}
+
+@media (max-width: 999px) and (min-width:850px) {
+    .left-side-logo img{
+        width: 280px;
+    }
+    .right-side-logo img{
+        width: 280px;
+    }
+    .center-logo img{
+        width: 230px;
+    }
+    .center-contact{
+        top: 2%;
+    }
+    .flex-links, .center-footer{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1110px) and (min-width:1000px) {
+    .left-side-logo img{
+        width: 300px;
+    }
+    .right-side-logo img{
+        width: 300px;
+    }
+    .center-logo img{
+        width: 300px;
+    }
+    .flex-links, .center-footer{
+        flex-direction: column;
+        align-items: center;
+    }
+   
+
+}
+
+@media (max-width: 1350px) and (min-width:1100px) {
+    .left-side-logo img{
+        width: 380px;
+    }
+    .right-side-logo img{
+        width: 380px;
+    }
+    .center-logo img{
+        width: 300px;
+    }
+}
+
+@media (max-width: 1440px) and (min-width:1340px) {
+    .left-side-logo img{
+        width: 420px ;
+        
+    }
+    .right-side-logo img{
+        width: 420px;
+    }
+    .center-logo img{
+        width: 440px ;
+    }
+}
+
+
+@media (max-width: 850px) and (min-width:500px) {
+    .contact-width article {
+        width: 200px;
+    }
+    .top-down-left, .top-down-right{
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 1470px) and (min-width:1450px) {
+.top-links{
+    padding: 0;
+}
+
+}
+
+/* finish attorney svgs width media */
+
+/* media finish */

@@ -1,0 +1,158 @@
+.Results-container{
+    padding: 115px 20px 0.7px 20px;
+}
+
+.Results-container .results-top , .results-center{
+    display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.Results-container .side-by-side{
+    display: flex;
+    padding: 80px 20px 80px 20px;
+    
+}
+
+.results-bottom{
+    display: flex;
+}
+.bottom-right h1, small{
+color: #000;
+
+
+}
+
+/* hover effect */
+
+.bottom-cards:hover{
+    box-shadow: 10px 7px 10px  rgba(0, 0, 0, 0.8);
+    border: 1px solid #7a7979;
+    transition: 0.5s ease;
+    transform: scale(1.01);
+    border-radius: 20px;
+}
+
+.bottom-card .image:hover{
+    box-shadow: 10px 7px 10px  rgba(0, 0, 0, 0.8);
+    border: 1px solid #7a7979;
+    transition: .5s ease;
+    transform: scale(1.01);
+
+
+
+    border-radius: 20px;
+
+}
+
+
+/* hover finish */
+
+.results-top h1{
+    color: #000;
+}
+
+.results-top img{
+    padding-top: 20px;
+}
+.results-center small{
+    color: #000;
+    padding-top: 30px;
+}
+
+.Results-container h1 {
+    font-family: 'Roboto', sans-serif;
+font-size: 30px;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0.4000000059604645px;
+text-align: left;
+}
+
+.Results-container .bottom-right small{
+    font-family: 'Roboto', sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.4000000059604645px;
+text-align: left;
+color: #000;
+
+}
+
+.bottom-card  h1,small{
+    color: #fff;
+}
+
+.image{
+    background-image: url(../assets/svgs/bottom-card-img.svg);
+    width: 420px;
+    height: 180px;
+    
+}
+
+/* cards styling */
+.bottom-cards{
+    display: flex;
+    width:460px;
+    background-color: #FBFBFB;
+    padding: 30px;
+
+
+} 
+
+
+.bottom-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+   
+    padding: 10px 0px 0px 20px;
+}
+
+.image .bottom-left{
+    padding: 50px;
+    color: #fff;
+}
+/* cards finish */
+
+@media (max-width: 1380px) and (min-width:300px) {
+.side-by-side{
+    display: flex;
+    
+    flex-direction: column;
+}
+.Results-container{
+    padding: 0;
+}
+.results-bottom{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+@media (max-width: 1520px) and (min-width:1280px) {
+    .Results-container .side-by-side{
+        padding: 60px 0px 60px 0px;
+        width: 1250px; ;
+    }
+    
+
+}
+
+@media (max-width: 600px) and (min-width:500px) {
+.results-center small{
+    width: 450px;
+}
+}
+
+@media (min-width:1300px) { 
+
+    .side-by-side{
+        flex-direction: row;
+    }
+
+}
+
+

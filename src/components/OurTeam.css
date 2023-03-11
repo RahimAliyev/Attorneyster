@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
+
+
+.Team-container{
+    height: 100%;
+}
+
+.Team-container-bottom{
+    display: flex;
+    justify-content: space-around;
+}
+.Team-container-top{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 100px 50px 100px 50px;
+}
+.left-member-bottom{
+    display: grid;
+    justify-content: center;
+}
+.middle-member-bottom{
+    display: grid;
+    justify-content: center;
+}
+.right-member-bottom{
+    display: grid;
+    justify-content: center;
+}
+.Team-container-top img{
+    padding-left: 298px;
+    padding-top: 40px;
+}
+
+.Team-container h1{
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.Team-container-top h1{
+    font-size: 45px;
+}
+
+
+.left-member-bottom h1{
+    font-size: 30px;
+}
+.middle-member-bottom h1{
+    font-size: 30px;
+    
+}
+.right-member-bottom h1{
+    font-size: 30px;
+    
+}
+
+
+@media (max-width: 509px) and (min-width:300px) {
+    .Team-container-top img{
+        padding-left: 150px;
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 600px) and (min-width:510px) {
+    .Team-container-top img{
+        padding-left: 180px;
+        
+    }
+}

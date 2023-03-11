@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
+
+
+.informations-section{
+    background-color: #161D27;
+    
+   
+    
+}
+
+.informs-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 30px 0px 30px;
+    padding-bottom: 50px;
+
+
+}
+.inform-right{
+    background-color: #fff;
+    width: 650px;
+    padding: 30px 0px 0px 70px;
+    height: 430px;
+}
+
+.inform-left .d-block{
+    padding-top: 20px;
+}
+
+.inform-left small{
+    
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+
+
+
+
+
+color: #D7D7D7;
+   
+    
+}
+
+.inform-left h1{
+    color: #fff;
+    text-align: start;
+}
+.inform-right small{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+letter-spacing: 0.4px;
+
+color: #909090;
+}
+
+.inform-left .padd{
+    padding-top: 50px;
+}
+.inform-left .BES{
+    padding-top: 30px;
+}
+.inform-right h1, small{
+    color: #000;
+}
+.inform-right-container{
+    
+    width: 500px;
+   
+}
+
+.consultating-section{
+    border: 15px solid #D7D7D7;
+    padding: 30px;
+}
+
+.icon img{
+    padding: 12px;
+    background-color: #D1B06B;
+}
+
+.mobile-inform{
+    color: #000;
+}
+
+.mobile-inform a{
+    color: #000;
+    text-decoration: none;
+}
+
+.mobile-inform a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+.icon{
+    display: flex;
+  padding: 10px;
+}
+
+.call-icons{
+    padding-right: 20px;
+}
+
+.icon h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+    
+    letter-spacing: 0.4px;
+    
+    color: #1F2732;
+    
+}
+
+@media (max-width: 1180px) and (min-width:350px) {
+    .informs-container{
+        flex-direction: column;
+    }
+
+    .informations-section{
+        height: 100%;
+    }
+    .inform-right-container{
+        width: 100%;
+    }
+
+    .inform-right{
+        width: fit-content;
+        padding: 40px 0px 0px 0px ;
+    }
+
+    .BES{
+        padding-bottom: 40px;
+    }
+}
+
+/* form container */
+.Form-container{
+    background-image: url(../assets/Formsection/form-background.svg);
+    width: 100%;
+    height: 940px;
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.Form-background{
+    padding: 140px 40px 140px 40px !important;
+}
+.form-section{
+   display: grid;
+    
+    background-color: #1F2732;
+    height: 335px;
+    width: 100%;
+}
+/* form finish  */

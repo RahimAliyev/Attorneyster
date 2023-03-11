@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
+
+.About-us-container {
+    background-image: url(../assets/AboutUs/AboutUsBackground.svg);
+    width: 100%;
+    height: 1240px;
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;
+    
+   
+}
+
+.info-section h1{
+    
+    bottom: 50%;
+}
+
+.About-us-background{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background: rgba(31, 39, 50, 0.85);
+    border-radius: 0px;
+   top: 10%;
+   left: 4%;
+   width: 1400px;
+   
+    position: relative;
+
+}
+.precent{
+    font-size: 20px;
+}
+.info-section{
+    display: flex;
+}
+
+
+.info-section p{
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+/* identical to box height, or 130% */
+
+letter-spacing: 0.4px;
+text-transform: capitalize;
+}
+
+.info-section small{
+  
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+letter-spacing: 0.4px;
+
+color: #D7D7D7;
+}
+
+.info-section-left , .info-section-right{
+    display: grid;
+    justify-content: center;
+    
+}
+
+.info-section-left{
+    padding-right: 100px;
+}
+
+.info-section-right{
+    padding-left: 100px;
+}
+.info-section-center img{
+    width: 264px;
+}
+
+
+.precents{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+.PC {
+    
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    
+    
+    
+    text-align: center;
+    letter-spacing: 0.4px;
+    
+    color: #1F2732;
+    background-color: #D1B06B;
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    
+}
+
+.buttons{
+    padding-top: 50px;
+}
+
+.PC{
+    height: 78px;
+}
+
+
+/* media start */
+@media (max-width: 1480px) and (min-width:300px) {
+    .About-us-background{
+        width: 100%;
+        
+        left: 0;
+    }
+
+    .About-us-container{
+        height: 100%;
+    }
+    .info-section {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .info-section-right{
+        padding: 0;
+        display: block;
+    }
+    .info-section-left{
+        display: block;
+        padding: 0;
+    }
+
+
+    .info-section-center img {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}
+
+
+
+/* media finish */
